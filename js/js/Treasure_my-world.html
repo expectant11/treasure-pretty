@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Whispers of My Heart: A Love Letter to My Forever</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3); /* A more vibrant gradient */
+            color: #4b2e83; /* Deep plum for text */
+            font-family: 'Cursive', 'Georgia', serif; /* Cursive for a romantic feel */
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffffff; /* White for main headings */
+            text-shadow: 2px 2px 4px #000000; /* Soft shadow for effect */
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #ffe6f2; /* Soft pinkish-white for subheadings */
+            text-shadow: 1px 1px 3px #000000; /* Soft shadow for effect */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #res {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: justify;
+            background-color: rgba(75, 46, 131, 0.8); /* Deep plum with transparency */
+            color: #ffcccb; /* Light pink text */
+            font-size: 1.5em;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #ff758c;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #ff7eb3;
+            color: #ffffff;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            font-size: 1em;
+            border: 2px solid #ffe6f2;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function relation() {
+            if (document.getElementById("tl").value == 1) {
+                document.getElementById("res").innerHTML = 
+                    '"Even in our disagreements, my love for you remains unshaken, growing stronger with every moment we share." ' + 
+                    " SWEET, click number 2.";
+            }
+            if (document.getElementById("tl").value == 2) {
+                document.getElementById("res").innerHTML = '"Our love is like the ocean—sometimes calm, sometimes stormy, but always deep and infinite."' + " "
+                + "SWEET,  3.";
+            }
+            if (document.getElementById("tl").value == 3) {
+                document.getElementById("res").innerHTML = "Even when we quarrel, I never forget how much you mean to me. You're my world, my forever." + " "
+                + "SWEET,  4. "
+            }
+            if (document.getElementById("tl").value == 4) {
+                document.getElementById("res").innerHTML = "No argument could ever dim the light of my love for you; it's a fire that burns eternally." + " "
+                + "SWEET,  5. "}
+            if (document.getElementById("tl").value == 5) {
+                    document.getElementById("res").innerHTML = "Through every disagreement, I see how much we care, and it only makes me love you more." + " "
+                    + "SWEET,  6. "}
+          if (document.getElementById("tl").value == 6) {
+             document.getElementById("res").innerHTML = "Our little quarrels remind me that we're two passionate souls who care deeply, and I wouldn’t have it any other way." + " "
+             + "SWEET,  7. "}
+         if (document.getElementById("tl").value == 7) {
+                document.getElementById("res").innerHTML = "Every time we argue, I realize even more how much I can't live without you." + " "
+                + "SWEET,  8. "}
+        if (document.getElementById("tl").value == 8) {
+                    document.getElementById("res").innerHTML = "The way we fight just shows how much we mean to each other. I love you more than words can say." + " "
+                    + "SWEET,  9. "} 
+         if (document.getElementById("tl").value == 9) {
+             document.getElementById("res").innerHTML = "Even when we don't see eye to eye, my heart always sees you as my one true love." + " "
+             + "SWEET,  10. "}
+        if (document.getElementById("tl").value == 10) {
+        document.getElementById("res").innerHTML = "No matter the challenges, my love for you stands strong, and I wouldn’t trade our love for anything in the world." + " "
+         + "SWEET, 11. "}
+         if(document.getElementById("tl").value == 11) {
+            document.getElementById("res").innerHTML = "MIRACLE PLUS TREASURE = 1"}
+        }
+    </script>
+</head>
+<body>
+    <h1>Treasure My Special One</h1><br>
+    <h2>A Love That Endures: Through Every Quarrel, My Heart Still Chooses You.</h2>
+    <h2>You are the best thing in my world.</h2>
+    <h1>Enter a number between 1 and 10 to reveal how much I love you:</h1>
+    <input type="text" id="tl"><br><br>
+    <button type="button" onclick="relation()">Click Me, SWEETHEART</button> <br><br>
+    <div id="res"></div> 
+</body>
+</html>

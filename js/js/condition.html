@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>conditions in html</title>
+
+    <style>
+        #res{
+            color: blue;
+            font-size: 10px;
+        }
+    </style>
+    <script>
+        function relation(){
+       
+        if(document.getElementById("tl").value ==document.getElementById("t2").value ){
+            document.writeln ("Both are equal")
+        }
+        else if (document.getElementById("tl").value > document.getElementById("t2").value ){
+            document.writeln ("first number is greater")
+        }
+        else
+        {
+            document.getElementById("res").innerHTML = "Second number is greater"
+        }
+    }
+    </script>
+</head>
+<body>
+   <h1> Enter the first number :<input type="text" id="tl"><br></h1>
+   <h1> Enter the second number :<input type="text" id="t2"><br></h1>
+     <button type="button" onclick="relation()">RELATE TWO NUMBERS</button> <br><br>
+
+     <div id="res"></div>
+      
+
+    
+</body>
+</html>

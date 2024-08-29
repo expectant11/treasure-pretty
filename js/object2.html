@@ -1,0 +1,21 @@
+<script>
+const Employee ={
+    first_name : "Miracle",
+    last_name : "Sylvanus",
+    other_name : "Oguzie",
+    state_of_origin : "imo",
+    age : 18,
+    salary : "#50000",
+    get_paid: function(){
+       return this.first_name + " " + this.last_name + " " +
+        this.other_name + " "+ this.salary;
+    }
+ }
+
+
+    console.log(Employee.first_name );
+    console.log(Employee['other_name']);
+    console.log( Employee.get_paid());
+
+
+</script>

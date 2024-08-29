@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+   <button onclick="
+     const randomNumber = Math.random();
+
+     let computerMove = '';
+     if(randomNumber >= 0 && randomNumber < 1/3)
+      computerMove = 'rock';
+    else if(randomNumber >= 1/3 && randomNumber < 2/3)
+     computerMove ='Paper';
+    else if(randomNumber >= 2/3 && randomNumber < 1)
+    computerMove = 'Scissors';
+
+    console.log(computerMove);
+
+    let result = '';
+
+    // console.log(computerMove);
+
+    if(computerMove === 'rock')
+     result ='tie';
+    else if(computerMove === 'Paper')
+     result = 'You lose';
+    else if(computerMove === 'Scissors')
+     result = 'You win'
+
+     console.log(result)
+     alert(`you picked paper and computer picked ${computerMove}. ${result}`);
+
+
+    ">Rock</button>
+
+
+<button onclick="
+ randomNumber = Math.random();
+ computerMove = '';
+
+ if(randomNumber >= 0 && randomNumber < 1/3)
+      computerMove = 'rock';
+    else if(randomNumber >= 1/3 && randomNumber < 2/3)
+     computerMove ='Paper';
+    else if(randomNumber >= 2/3 && randomNumber < 1)
+    computerMove = 'Scissors';
+
+    console.log(computerMove);
+
+    if(computerMove === 'rock')
+     console.log('You win');
+    else if(computerMove === 'Paper')
+     console.log('tie');
+    else if(computerMove === 'Scissors')
+     console.log('You lose')
+ 
+ ">Paper</button>
+
+ <button onclick="
+ randomNumber = Math.random();
+ computerMove = '';
+
+ if(randomNumber >= 0 && randomNumber < 1/3)
+      computerMove = 'rock';
+    else if(randomNumber >= 1/3 && randomNumber < 2/3)
+     computerMove ='Paper';
+    else if(randomNumber >= 2/3 && randomNumber < 1)
+    computerMove = 'Scissors';
+
+    console.log(computerMove);
+
+    if(computerMove === 'rock')
+     console.log('You win');
+    else if(computerMove === 'Paper')
+     console.log('tie');
+    else if(computerMove === 'Scissors')
+     console.log('You lose')
+" >Scissors</button>
+</body>
+</html>
